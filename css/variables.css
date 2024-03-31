@@ -1,0 +1,18 @@
+@import "./fonts.css";
+
+:root {
+  --ff-main: "Inter";
+
+  --weight-regular: 400;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  --size-font: 14px;
+
+  --primary-green: hsl(75, 94%, 57%);
+
+  --neutral-white: hsl(0, 0%, 100%);
+  --neutral-grey: hsl(0, 0%, 20%);
+  --neutral-dark-grey: hsl(0, 0%, 12%);
+  --neutral-off-black: hsl(0, 0%, 8%);
+}

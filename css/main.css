@@ -1,0 +1,88 @@
+@import "./fonts.css";
+@import "./variables.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.main {
+  font-family: var(--ff-main);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: var(--neutral-off-black);
+}
+
+.container {
+  background: var(--neutral-dark-grey);
+  padding: 3rem;
+  border-radius: 1rem;
+}
+
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  max-width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.profile-name {
+  color: var(--neutral-white);
+  font-size: 1.775rem;
+  font-weight: var(--weight-semibold);
+  margin: 0.35rem 0;
+}
+
+.location {
+  color: var(--primary-green);
+  font-weight: var(--weight-bold);
+  margin-top: 0.25rem;
+}
+
+.occupation {
+  color: var(--neutral-white);
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.text-center {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.button {
+  border: none;
+  font-family: var(--ff-main);
+  transition: 150ms ease;
+  font-size: 1rem;
+  font-weight: var(--weight-bold);
+  color: var(--neutral-white);
+  border-radius: 0.5rem;
+  background: var(--neutral-grey);
+  padding: 0.75rem 1rem;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: var(--neutral-grey);
+  background: var(--primary-green);
+}
